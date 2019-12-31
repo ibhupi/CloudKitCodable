@@ -17,16 +17,6 @@
 		02DF661420D1774D00A20812 /* CustomCloudKitEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD636E20A6533C00CDB5B2 /* CustomCloudKitEncodable.swift */; };
 		02DF661520D1774D00A20812 /* CloudKitRecordEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD637020A6536100CDB5B2 /* CloudKitRecordEncoder.swift */; };
 		02DF661620D1774D00A20812 /* CloudKitRecordDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FCFF720A7232F00F5778D /* CloudKitRecordDecoder.swift */; };
-		DD7FCFF820A7232F00F5778D /* CloudKitRecordDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FCFF720A7232F00F5778D /* CloudKitRecordDecoder.swift */; };
-		DD7FCFFA20A725CF00F5778D /* CloudKitRecordDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FCFF920A725CF00F5778D /* CloudKitRecordDecoderTests.swift */; };
-		DD7FCFFC20A7261D00F5778D /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FCFFB20A7261D00F5778D /* TestUtils.swift */; };
-		DD7FD01E20A72BE000F5778D /* Rambo.ckrecord in Resources */ = {isa = PBXBuildFile; fileRef = DD7FD01D20A72BE000F5778D /* Rambo.ckrecord */; };
-		DDCD635D20A6532D00CDB5B2 /* CloudKitCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCD635320A6532D00CDB5B2 /* CloudKitCodable.framework */; };
-		DDCD636220A6532D00CDB5B2 /* CloudKitRecordEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD636120A6532D00CDB5B2 /* CloudKitRecordEncoderTests.swift */; };
-		DDCD636420A6532D00CDB5B2 /* CloudKitCodable.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCD635620A6532D00CDB5B2 /* CloudKitCodable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDCD636F20A6533C00CDB5B2 /* CustomCloudKitEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD636E20A6533C00CDB5B2 /* CustomCloudKitEncodable.swift */; };
-		DDCD637120A6536100CDB5B2 /* CloudKitRecordEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD637020A6536100CDB5B2 /* CloudKitRecordEncoder.swift */; };
-		DDCD637420A655E500CDB5B2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD637320A655E500CDB5B2 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +26,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 02DF65F720D1772900A20812;
 			remoteInfo = "CloudKitCodable-iOS";
-		};
-		DDCD635E20A6532D00CDB5B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DDCD634A20A6532D00CDB5B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DDCD635220A6532D00CDB5B2;
-			remoteInfo = CloudKitCodable;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,10 +39,8 @@
 		DD7FCFF920A725CF00F5778D /* CloudKitRecordDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitRecordDecoderTests.swift; sourceTree = "<group>"; };
 		DD7FCFFB20A7261D00F5778D /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 		DD7FD01D20A72BE000F5778D /* Rambo.ckrecord */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Rambo.ckrecord; sourceTree = "<group>"; };
-		DDCD635320A6532D00CDB5B2 /* CloudKitCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CloudKitCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCD635620A6532D00CDB5B2 /* CloudKitCodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudKitCodable.h; sourceTree = "<group>"; };
 		DDCD635720A6532D00CDB5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDCD635C20A6532D00CDB5B2 /* CloudKitCodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKitCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCD636120A6532D00CDB5B2 /* CloudKitRecordEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitRecordEncoderTests.swift; sourceTree = "<group>"; };
 		DDCD636320A6532D00CDB5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDCD636E20A6533C00CDB5B2 /* CustomCloudKitEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCloudKitEncodable.swift; sourceTree = "<group>"; };
@@ -80,21 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DF660120D1772900A20812 /* CloudKitCodable.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDCD634F20A6532D00CDB5B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDCD635920A6532D00CDB5B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDCD635D20A6532D00CDB5B2 /* CloudKitCodable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +106,6 @@
 		DDCD635420A6532D00CDB5B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDCD635320A6532D00CDB5B2 /* CloudKitCodable.framework */,
-				DDCD635C20A6532D00CDB5B2 /* CloudKitCodableTests.xctest */,
 				02DF65F820D1772900A20812 /* CloudKitCodable.framework */,
 				02DF660020D1772900A20812 /* CloudKitCodable-iOSTests.xctest */,
 			);
@@ -200,14 +164,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDCD635020A6532D00CDB5B2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDCD636420A6532D00CDB5B2 /* CloudKitCodable.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -247,42 +203,6 @@
 			productReference = 02DF660020D1772900A20812 /* CloudKitCodable-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DDCD635220A6532D00CDB5B2 /* CloudKitCodable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDCD636720A6532D00CDB5B2 /* Build configuration list for PBXNativeTarget "CloudKitCodable" */;
-			buildPhases = (
-				DDCD634E20A6532D00CDB5B2 /* Sources */,
-				DDCD634F20A6532D00CDB5B2 /* Frameworks */,
-				DDCD635020A6532D00CDB5B2 /* Headers */,
-				DDCD635120A6532D00CDB5B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CloudKitCodable;
-			productName = CloudKitCodable;
-			productReference = DDCD635320A6532D00CDB5B2 /* CloudKitCodable.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DDCD635B20A6532D00CDB5B2 /* CloudKitCodableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDCD636A20A6532D00CDB5B2 /* Build configuration list for PBXNativeTarget "CloudKitCodableTests" */;
-			buildPhases = (
-				DDCD635820A6532D00CDB5B2 /* Sources */,
-				DDCD635920A6532D00CDB5B2 /* Frameworks */,
-				DDCD635A20A6532D00CDB5B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDCD635F20A6532D00CDB5B2 /* PBXTargetDependency */,
-			);
-			name = CloudKitCodableTests;
-			productName = CloudKitCodableTests;
-			productReference = DDCD635C20A6532D00CDB5B2 /* CloudKitCodableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -299,13 +219,6 @@
 					02DF65FF20D1772900A20812 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
-					DDCD635220A6532D00CDB5B2 = {
-						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
-					};
-					DDCD635B20A6532D00CDB5B2 = {
-						CreatedOnToolsVersion = 9.3;
-					};
 				};
 			};
 			buildConfigurationList = DDCD634D20A6532D00CDB5B2 /* Build configuration list for PBXProject "CloudKitCodable" */;
@@ -320,8 +233,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDCD635220A6532D00CDB5B2 /* CloudKitCodable */,
-				DDCD635B20A6532D00CDB5B2 /* CloudKitCodableTests */,
 				02DF65F720D1772900A20812 /* CloudKitCodable-iOS */,
 				02DF65FF20D1772900A20812 /* CloudKitCodable-iOSTests */,
 			);
@@ -341,21 +252,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				02DF660F20D1774300A20812 /* Rambo.ckrecord in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDCD635120A6532D00CDB5B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDCD635A20A6532D00CDB5B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD7FD01E20A72BE000F5778D /* Rambo.ckrecord in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,27 +279,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDCD634E20A6532D00CDB5B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD7FCFF820A7232F00F5778D /* CloudKitRecordDecoder.swift in Sources */,
-				DDCD637120A6536100CDB5B2 /* CloudKitRecordEncoder.swift in Sources */,
-				DDCD636F20A6533C00CDB5B2 /* CustomCloudKitEncodable.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDCD635820A6532D00CDB5B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD7FCFFA20A725CF00F5778D /* CloudKitRecordDecoderTests.swift in Sources */,
-				DDCD637420A655E500CDB5B2 /* Person.swift in Sources */,
-				DD7FCFFC20A7261D00F5778D /* TestUtils.swift in Sources */,
-				DDCD636220A6532D00CDB5B2 /* CloudKitRecordEncoderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -411,11 +286,6 @@
 			isa = PBXTargetDependency;
 			target = 02DF65F720D1772900A20812 /* CloudKitCodable-iOS */;
 			targetProxy = 02DF660220D1772900A20812 /* PBXContainerItemProxy */;
-		};
-		DDCD635F20A6532D00CDB5B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DDCD635220A6532D00CDB5B2 /* CloudKitCodable */;
-			targetProxy = DDCD635E20A6532D00CDB5B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -635,107 +505,6 @@
 			};
 			name = Release;
 		};
-		DDCD636820A6532D00CDB5B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = CloudKitCodable/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.CloudKitCodable;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		DDCD636920A6532D00CDB5B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = CloudKitCodable/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.CloudKitCodable;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		DDCD636B20A6532D00CDB5B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CloudKitCodableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.CloudKitCodableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		DDCD636C20A6532D00CDB5B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CloudKitCodableTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.CloudKitCodableTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -762,24 +531,6 @@
 			buildConfigurations = (
 				DDCD636520A6532D00CDB5B2 /* Debug */,
 				DDCD636620A6532D00CDB5B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DDCD636720A6532D00CDB5B2 /* Build configuration list for PBXNativeTarget "CloudKitCodable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDCD636820A6532D00CDB5B2 /* Debug */,
-				DDCD636920A6532D00CDB5B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DDCD636A20A6532D00CDB5B2 /* Build configuration list for PBXNativeTarget "CloudKitCodableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDCD636B20A6532D00CDB5B2 /* Debug */,
-				DDCD636C20A6532D00CDB5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
